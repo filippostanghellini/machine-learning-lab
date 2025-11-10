@@ -6,7 +6,8 @@ if [ $# -eq 0 ]; then
 fi
 
 FILE="$1"
+OUTPUT="pdfs"
 
-pandoc "${FILE}.md" --include-in-header=preamble.tex -t beamer -o "${FILE}.pdf"
+pandoc "${FILE}.md" --include-in-header=preamble.tex -t beamer -o "${OUTPUT}/${FILE}.pdf"
 
-echo "PDF generated: ${FILE}.pdf"
+echo "PDF generated: ${OUTPUT}/${FILE}.pdf"
