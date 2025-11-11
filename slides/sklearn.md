@@ -11,7 +11,7 @@ author:
 - \href{https://samuelebortolotti.github.io/}{Samuele Bortolotti}
 - \href{https://steveazzolin.github.io/}{Steve Azzolin}
 date:
-- 11 November, 2025
+- 12 November, 2025
 lang: en
 section-titles:
 - false
@@ -55,7 +55,7 @@ Download or clone the course repository from:
 Open your terminal and install Jupyter using `pip`:
 
 ```bash
-pip install jupyter-notebook
+pip install jupyter
 ````
 
 *Note:* If you are using Anaconda, Jupyter is already included.
