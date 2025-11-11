@@ -90,8 +90,6 @@ Locate and open the notebook file:
 
 **`scikit-learn.ipynb`**
 
-*(Example view of the Jupyter file browser)*
-
 ![Jupyter file browser](imgs/jupyter.png)
 
 ---
