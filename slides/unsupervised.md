@@ -32,15 +32,7 @@ fontsize:
 
 Open the file on `Google Colaboratory`:
 
-![QR code to open Colab](imgs/sklearn-qr.pdf){ height=1.5in }
-
-Make sure to set the **runtime type to T4 GPU**.
-
----
-
-# What to add
-
-- Autoencoders/t-SNE?
+![QR code to open Colab](imgs/unsupervised-qr.pdf){ height=1.5in }
 
 ---
 
@@ -50,16 +42,14 @@ Apply unsupervised learning techniques to explore, cluster, and interpret a data
 
 Steps:
 
-1. Chose an unsupervised dataset
-2. Normalize or standardize features
-3. Reduce dimensionality using PCA
-4. Compare different clustering methods
+1. Choose an unsupervised dataset.
+2. Apply clustering algorithms: K-Means and Gaussian Mixture Models.
+3. Determine the optimal number of clusters using the Silhouette Score and Elbow Method.
+4. Compare clustering methods and **explore other methods** in scikit-learn.
 
 ---
 
-# Suggested datasets:
+# Suggested Datasets
 
-* MNIST or Fashion-MNIST (as raw images)
-* Iris dataset
-
----
+1. [Iris Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html)
+2. [Mall Customers Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
