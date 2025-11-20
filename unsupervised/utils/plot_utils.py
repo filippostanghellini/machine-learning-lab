@@ -24,7 +24,7 @@ def plot_pca_clusters(X_pca, y, dimensions=False):
     def create_cluster_dict(pred, X):
         tmp = {}
         for c, x in zip(pred, X):
-            tmp.update({c: tmp.get(c, [])+[x]})
+            tmp.update({c: tmp.get(c, [])+[x]}) # create a dict for the two classes, with samples as elements of the list
         return tmp
 
     clusters = create_cluster_dict(y, X_pca)
@@ -36,7 +36,7 @@ def plot_pca_clusters(X_pca, y, dimensions=False):
         if dimensions:
             ax.scatter(i[:, 0], i[:, 1], i[:, 2], label=f"Wine Type {k}")
         else:
-            plt.scatter(i[:, 0],i[:,1],label=f"Wine Type {k}")
+            plt.scatter(i[:, 0], i[:,1], label=f"Wine Type {k}")
     plt.legend()
     plt.show()
 
