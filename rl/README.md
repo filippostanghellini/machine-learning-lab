@@ -30,4 +30,4 @@ To open the notebook in Google Colab:
 
 The accompanying lecture slides for this lab can be found here:
 
-[Scikit-learn Slides (PDF)](https://github.com/samuelebortolotti/machine-learning-lab/blob/master/slides/pdfs/reinforcement_learning.pdf)
+[RL Slides (PDF)](https://github.com/samuelebortolotti/machine-learning-lab/blob/master/slides/pdfs/reinforcement_learning.pdf)
